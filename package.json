@@ -1,0 +1,32 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "Node.js Blog Example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tugsef/CleanBlog.git"
+  },
+  "keywords": [
+    "blog",
+    "node",
+    "app"
+  ],
+  "author": "Sefa Demirtaş",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tugsef/CleanBlog/issues"
+  },
+  "homepage": "https://github.com/tugsef/CleanBlog#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "prettier": "3.2.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
